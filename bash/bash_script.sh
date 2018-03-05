@@ -31,6 +31,15 @@
 #	Thank you for teaching us the shell script, I learned a lot from this
 #	assignment and ready to explore more about scripting!
 
+echo "
+Welcome to use this script to check your system information summary.
+The scrit will display all the basic information. If you would like
+to know specific information only, you can use option. Please refer
+to the -h help menue to get the options you need. Please hit [Enter]
+to continue... Good Luck!!!
+
+"
+
 function hostname-domainname {
 echo "
 -----------------------------------------
@@ -147,6 +156,13 @@ else
 	echo "The configured printer(s) is( are):" ; echo `lpstat -p | grep "printer" | cut -d " " -f 2`
 fi
 }
+
+function begin {
+
+echo " "
+
+}
+
 
 function HELP {
 echo "
