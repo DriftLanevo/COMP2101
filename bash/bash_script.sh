@@ -35,9 +35,7 @@ echo "
 Welcome to use this script to check your system information summary.
 The scrit will display all the basic information. If you would like
 to know specific information only, you can use option. Please refer
-to the -h help menue to get the options you need. Please hit [Enter]
-to continue... Good Luck!!!
-
+to the -h help menue to get the options you need. Good Luck!!!
 "
 
 function hostname-domainname {
