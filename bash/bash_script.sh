@@ -1,7 +1,7 @@
 #!/bin/bash
 #	########################################################
 #	#             Student Name: Zech Zou                   #
-#	#	      Student Number: 200347348        	       #
+#	#	      Student Number: 200347348        	       			 #
 #	#             Instrcutor: Dennis Simpson               #
 #	########################################################
 #
@@ -26,9 +26,9 @@
 #	Enlish is not my first language, I tried my best to explain the commands
 #	and my thought in comments, but it may not express well. I don't know
 #	`awk` and `sed` very well, instead I learned how to use `cut`. So you may
-#	find a lot of `cut` in my script. 
+#	find a lot of `cut` in my script.
 #
-#	Thank you for teaching us the shell script, I learned a lot from this 
+#	Thank you for teaching us the shell script, I learned a lot from this
 #	assignment and ready to explore more about scripting!
 
 function hostname-domainname {
@@ -169,7 +169,7 @@ echo "
 # $# means the number of arguments
 # [ $# -eq 0 ] means test if the number of arguments equal to 0
 # if you don't type option(argument) then execute the function part, which will print out all the information
-if [ $# -eq 0 ]; then 
+if [ $# -eq 0 ]; then
 	hostname-domainname
 	network
 	osname-version
@@ -200,4 +200,3 @@ while (($#)); do
 	fi
 	shift # after get the result, go back to the begining
 done # end the loop condition
-
